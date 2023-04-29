@@ -16,6 +16,9 @@
 		4840FAB129FAEA47009EF09E /* FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840FAB029FAEA47009EF09E /* FinalTests.swift */; };
 		4840FABB29FAEA47009EF09E /* FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840FABA29FAEA47009EF09E /* FinalUITests.swift */; };
 		4840FABD29FAEA47009EF09E /* FinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840FABC29FAEA47009EF09E /* FinalUITestsLaunchTests.swift */; };
+		4840FACA29FAEF13009EF09E /* LoginInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840FAC929FAEF13009EF09E /* LoginInfoViewController.swift */; };
+		4840FACC29FAF218009EF09E /* PizzaOrderingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840FACB29FAF218009EF09E /* PizzaOrderingViewController.swift */; };
+		4840FACE29FAFA18009EF09E /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840FACD29FAFA18009EF09E /* CheckoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		4840FAB629FAEA47009EF09E /* FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4840FABA29FAEA47009EF09E /* FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalUITests.swift; sourceTree = "<group>"; };
 		4840FABC29FAEA47009EF09E /* FinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4840FAC929FAEF13009EF09E /* LoginInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInfoViewController.swift; sourceTree = "<group>"; };
+		4840FACB29FAF218009EF09E /* PizzaOrderingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaOrderingViewController.swift; sourceTree = "<group>"; };
+		4840FACD29FAFA18009EF09E /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 		4840FA8D29FAEA46009EF09E = {
 			isa = PBXGroup;
 			children = (
+				4840FACD29FAFA18009EF09E /* CheckoutViewController.swift */,
+				4840FACB29FAF218009EF09E /* PizzaOrderingViewController.swift */,
 				4840FA9829FAEA46009EF09E /* Final */,
 				4840FAAF29FAEA47009EF09E /* FinalTests */,
 				4840FAB929FAEA47009EF09E /* FinalUITests */,
@@ -103,6 +111,7 @@
 				4840FA9B29FAEA46009EF09E /* SceneDelegate.swift */,
 				4840FA9D29FAEA46009EF09E /* ViewController.swift */,
 				4840FA9F29FAEA46009EF09E /* Main.storyboard */,
+				4840FAC929FAEF13009EF09E /* LoginInfoViewController.swift */,
 				4840FAA229FAEA47009EF09E /* Assets.xcassets */,
 				4840FAA429FAEA47009EF09E /* LaunchScreen.storyboard */,
 				4840FAA729FAEA47009EF09E /* Info.plist */,
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4840FACC29FAF218009EF09E /* PizzaOrderingViewController.swift in Sources */,
+				4840FACA29FAEF13009EF09E /* LoginInfoViewController.swift in Sources */,
 				4840FA9E29FAEA46009EF09E /* ViewController.swift in Sources */,
 				4840FA9A29FAEA46009EF09E /* AppDelegate.swift in Sources */,
+				4840FACE29FAFA18009EF09E /* CheckoutViewController.swift in Sources */,
 				4840FA9C29FAEA46009EF09E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
